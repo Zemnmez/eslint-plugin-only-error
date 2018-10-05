@@ -10,8 +10,8 @@ function enable () {
   LinterPrototype.verify = function () {
     const messages = originalVerify.apply(this, arguments)
     messages.forEach(message => {
-      if (message.severity === 2) {
-        message.severity = 1
+      if (message.severity === 1) {
+        message.severity = 2
       }
     })
     return messages

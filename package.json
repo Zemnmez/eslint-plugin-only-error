@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-only-warn",
-  "version": "1.0.1",
-  "description": "Downgrade errors to warnings",
+  "name": "eslint-plugin-only-error",
+  "version": "1.0.0",
+  "description": "Upgrade warnings to errors",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -12,11 +12,11 @@
     "test": "eslint src tests && jest",
     "test:watch": "jest --watch"
   },
-  "author": "Bob Fanger",
-  "homepage": "https://github.com/bfanger/eslint-plugin-only-warn",
+  "author": "David J. Bradshaw",
+  "homepage": "https://github.com/davidjbradshaw/eslint-plugin-only-error",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bfanger/eslint-plugin-only-warn.git"
+    "url": "https://github.com/davidjbradshaw/eslint-plugin-only-error.git"
   },
   "eslintConfig": {
     "extends": "vue",

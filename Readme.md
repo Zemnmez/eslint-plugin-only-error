@@ -30,3 +30,5 @@ Add `only-error` to the plugins section of your `.eslintrc` configuration file. 
     ]
 }
 ```
+
+_This plugin is based on (eslint-plugin-only-warn)[bfanger/eslint-plugin-only-warn] by (Bob Fanger)[bfanger]._
