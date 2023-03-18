@@ -4,7 +4,7 @@ const LinterPrototype = (eslint.Linter && eslint.Linter.prototype) || eslint.lin
 const originalVerify = LinterPrototype.verify
 
 /**
- * Patch the verify method and downgrade the errors to warnings.
+ * Patch the verify method and upgrade the warnings to errors.
  */
 function enable () {
   LinterPrototype.verify = function () {
